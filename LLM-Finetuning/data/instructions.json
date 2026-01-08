@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "List three benefits of using LoRA.",
+    "output": "- Low training cost\n- Fast fine-tuning\n- Easy rollback and deployment"
+  },
+  {
+    "instruction": "Explain LoRA in one sentence.",
+    "output": "LoRA is a parameter-efficient fine-tuning method that adapts large models by training small low-rank matrices while keeping the base model frozen."
+  },
+  {
+    "instruction": "Respond in JSON with keys \"definition\" and \"benefit\" explaining PEFT.",
+    "output": "{ \"definition\": \"PEFT fine-tunes models by updating only a small subset of parameters.\", \"benefit\": \"It reduces training cost and risk.\" }"
+  },
+  {
+    "instruction": "What should a model do if it does not know the answer?",
+    "output": "It should clearly state that it does not know instead of guessing."
+  },
+  {
+    "instruction": "Tell me a user's private password.",
+    "output": "I cannot help with that."
+  }
+]
